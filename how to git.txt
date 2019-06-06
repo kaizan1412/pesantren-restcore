@@ -1,0 +1,5 @@
+git init
+git add README.md <add all files that changed>
+git commit -m "first commit"
+git remote add origin https://github.com/kaizan1412/pesantren-restcore.git
+git push -u origin master
