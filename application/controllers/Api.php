@@ -34,7 +34,7 @@ class Api extends REST_Controller{
            'type' => $this->input->post('type')
         );
         $r = $this->user_model->insert($data);
-        $this->response($r); 
+        $this->response($r, $r['status_code']); 
     }
     
 	public function user_delete(){
